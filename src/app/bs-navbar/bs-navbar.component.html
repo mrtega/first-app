@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">FIRST APP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+
+      <li ngbDropdown class="nav-item dropdown">
+        <a ngbDropdownToggle class="nav-link dropdown-toggle"  id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Why you got charged?</a>
+          <a class="dropdown-item" href="#">Integgration</a>
+          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" href="#">Support</a>
+          <a class="dropdown-item" href="#">Wave Podcast</a>
+        </div>
+      </li>
+
+      <!-- <li class="nav-item active">
+        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/developers">Developers</a>
+      </li>
+
+      <li ngbDropdown class="nav-item dropdown">
+        <a ngbDropdownToggle class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Solutions</a>
+        <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Check Out</a>
+          <a class="dropdown-item" href="#">Card issuing and management</a>
+          <a class="dropdown-item" href="#">Store</a>
+          <a class="dropdown-item" href="#">Invoices</a>
+          <a class="dropdown-item" href="#">Payment Links</a>
+        </div>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sign-in">Sign In</a>
+      </li>
+    </form> -->
+    <div class="nav-item" >
+      <a routerLink="/sign-in" target="_self" class="nav-link" >Sign In</a>
+    </div>
+
+    <div class="header__nav__item" data-v-18eeb8f9="">
+      <a routerLink="/create-account" target="_self" class="header__nav__btn" data-v-18eeb8f9="">Create Account</a>
+    </div>
+
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/create-account">Create Account</a>
+      </li>
+    </form> -->
+  </div>
+  </div>
+
+</nav>
